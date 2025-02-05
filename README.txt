@@ -16,12 +16,12 @@ INSTRUCTIONS (assuming Python, django, and djangorestframework already installed
 
 8. Go to the localhost in your browser (http://localhost:8000/)
 
-9. This project didn't have home views but there's 3 main views for this project.
+9. This project didn't have home views but there are 3 main views for this project.
 	a) List View: http://localhost:8000/inventory/
 	b) API Endpoint: http://localhost:8000/api/inventory/
 	c) Admin Panel: http://localhost:8000/admin/
 
-10. List View and API Endpoint are straight forward to use.
+10. List View and API Endpoint are straightforward to use.
 
 11. For Admin Panel, use the following credentials
 	Username : irsyad
