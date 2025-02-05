@@ -29,4 +29,4 @@ INSTRUCTIONS (assuming Python, django, and djangorestframework already installed
 
 12. In the inventory tabs, admin has the permission to create, read, update, and delete items (CRUD) for Inventorys and Suppliers
 
-13. To do the testing, close the server by pressing Ctrl + shift + C and Run python manage.py test.
+13. To do the testing, close the server by pressing Ctrl + shift + C in the Command Promt terminal and Run python manage.py test.
