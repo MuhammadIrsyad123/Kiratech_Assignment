@@ -1,6 +1,6 @@
 INSTRUCTIONS (assuming Python, django, and djangorestframework already installed in your machine)
 
-1. Download the "Django Inventory Assignment - Kiratech" project folder from github repository.
+1. Download the project folder from github repository.
 
 2. Press Windows + R key to and type cmd to open Command Promt terminal.
 
