@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Inventory Detail</title></head>
+<body>
+  <h1>{{ inventory.name }}</h1>
+  <img src="/static/placeholder.jpg" alt="Thumbnail" width="100">
+  <p>Description: {{ inventory.description }}</p>
+  <p>Note: {{ inventory.note }}</p>
+  <p>Stock: {{ inventory.stock }}</p>
+  <p>Supplier: {{ inventory.supplier.name }}</p>
+  <p>Available: {{ inventory.availability }}</p>
+</body>
+</html>

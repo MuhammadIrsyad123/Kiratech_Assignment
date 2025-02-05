@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Inventory List</title></head>
+<body>
+  <h1>Inventory</h1>
+  <input type="text" placeholder="Search by name..." id="search">
+  <ul>
+    {% for item in inventories %}
+      <li>
+        <a href="{% url 'inventory-detail' item.id %}">{{ item.name }}</a>
+        (Supplier: {{ item.supplier.name }}, Available: {{ item.availability }})
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
