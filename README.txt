@@ -2,15 +2,15 @@ INSTRUCTIONS (assuming Python, django, and djangorestframework already installed
 
 1. Download the project folder from github repository.
 
-2. Press Windows + R key to and type cmd to open Command Promt terminal.
+2. Press Windows + R key and type cmd to open the Command Prompt terminal.
 
-3. Change the directory to project folder directory.
+3. Change the directory to the project folder directory.
 
 4. Run cd venv/Scripts
 
 5. Run activate
 
-6. Run cd.. (x2) to get to back to project folder directory
+6. Run cd.. (x2) to get back to the project folder directory
 
 7. Run python manage.py runserver
 
@@ -23,10 +23,10 @@ INSTRUCTIONS (assuming Python, django, and djangorestframework already installed
 
 10. List View and API Endpoint are straightforward to use.
 
-11. For Admin Panel, use the following credentials
+11. For the Admin Panel, use the following credentials
 	Username : irsyad
 	Password : irsyadsanuri
 
 12. In the inventory tabs, admin has the permission to create, read, update, and delete items (CRUD) for Inventorys and Suppliers
 
-13. To do the testing, close the server by pressing Ctrl + shift + C in the Command Promt terminal and Run python manage.py test.
+13. To do the testing, close the server by pressing Ctrl + shift + C in the Command Prompt terminal and Run python manage.py test.
